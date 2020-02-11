@@ -31,7 +31,7 @@ Trained model will be save in the created save folder.
 
 ## License
 
-Our source code is released under the GPLv3 license for acadmic purposes. The only requirement for using the code in your research is to cite our paper:
+Our source code is released under the GPL-3.0 license for acadmic purposes. The only requirement for using the code in your research is to cite our paper:
 
     @article{Kang:2019:JOINT,
     author = {Kang, Kaizhang and Xie, Cihui and He, Chengan and Yi, Mingqi and Gu, Minyi and Chen, Zimin and Zhou, Kun and Wu, Hongzhi},
