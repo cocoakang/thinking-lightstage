@@ -1,6 +1,6 @@
 # Thinking Lightstage
 ## About
-This is an implementation of the neural network presented in [Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape](http://www.cad.zju.edu.cn/home/hwu/publications/jointcap/project.html).
+This is an implementation of the neural network proposed in [Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape](http://www.cad.zju.edu.cn/home/hwu/publications/jointcap/project.html).
 
 ## Usage
 ### System Requirements
@@ -30,5 +30,5 @@ Trained model will be save in the created save folder.
 
 ## License
 
-This work is dual-licensed under commercial and open source licenses(GPLv3).  
+Our source code is released under the GPLv3 license for acadmic purposes. The only requirement for using the code in your research is to cite our paper[.BIB]. For commercial licensing options, please email hwu at acm.org.   
 See COPYING for the open source license.
