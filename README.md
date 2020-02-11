@@ -15,7 +15,7 @@ Note: Since the training data (sampled points with BRDF parameters and position)
 ### Training
 Windows: 
 1. move to siga19_source 
-2. run train.bat
+2. run train.bat  
 Linux: 
 1. move to siga19_source 
 2. change DATA_ROOT in train.sh to the path of training data. 
