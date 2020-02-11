@@ -32,27 +32,29 @@ Trained model will be save in the created save folder.
 ## License
 
 Our source code is released under the GPLv3 license for acadmic purposes. The only requirement for using the code in your research is to cite our paper:
-`
-@article{Kang:2019:JOINT,
- author = {Kang, Kaizhang and Xie, Cihui and He, Chengan and Yi, Mingqi and Gu, Minyi and Chen, Zimin and Zhou, Kun and Wu, Hongzhi},
- title = {Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape},
- journal = {ACM Trans. Graph.},
- issue_date = {November 2019},
- volume = {38},
- number = {6},
- month = nov,
- year = {2019},
- issn = {0730-0301},
- pages = {165:1--165:12},
- articleno = {165},
- numpages = {12},
- url = {http://doi.acm.org/10.1145/3355089.3356492},
- doi = {10.1145/3355089.3356492},
- acmid = {3356492},
- publisher = {ACM},
- address = {New York, NY, USA},
- keywords = {SVBRDF, lighting patterns, multi-view stereo, optimal sampling},
-}
-` 
+
+    `
+    @article{Kang:2019:JOINT,
+    author = {Kang, Kaizhang and Xie, Cihui and He, Chengan and Yi, Mingqi and Gu, Minyi and Chen, Zimin and Zhou, Kun and Wu, Hongzhi},
+    title = {Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape},
+    journal = {ACM Trans. Graph.},
+    issue_date = {November 2019},
+    volume = {38},
+    number = {6},
+    month = nov,
+    year = {2019},
+    issn = {0730-0301},
+    pages = {165:1--165:12},
+    articleno = {165},
+    numpages = {12},
+    url = {http://doi.acm.org/10.1145/3355089.3356492},
+    doi = {10.1145/3355089.3356492},
+    acmid = {3356492},
+    publisher = {ACM},
+    address = {New York, NY, USA},
+    keywords = {SVBRDF, lighting patterns, multi-view stereo, optimal sampling},
+    }
+    ` 
+    
 For commercial licensing options, please email hwu at acm.org.   
 See COPYING for the open source license.
