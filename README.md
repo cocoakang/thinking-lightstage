@@ -33,7 +33,6 @@ Trained model will be save in the created save folder.
 
 Our source code is released under the GPLv3 license for acadmic purposes. The only requirement for using the code in your research is to cite our paper:
 
-    `
     @article{Kang:2019:JOINT,
     author = {Kang, Kaizhang and Xie, Cihui and He, Chengan and Yi, Mingqi and Gu, Minyi and Chen, Zimin and Zhou, Kun and Wu, Hongzhi},
     title = {Learning Efficient Illumination Multiplexing for Joint Capture of Reflectance and Shape},
@@ -53,8 +52,7 @@ Our source code is released under the GPLv3 license for acadmic purposes. The on
     publisher = {ACM},
     address = {New York, NY, USA},
     keywords = {SVBRDF, lighting patterns, multi-view stereo, optimal sampling},
-    }
-    ` 
-    
+    } 
+
 For commercial licensing options, please email hwu at acm.org.   
 See COPYING for the open source license.
