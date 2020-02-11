@@ -7,6 +7,5 @@ __pycache__/
 
 logs_long_train/
 logs_long_train_wnottrainable/
-auxiliary/
 tmp_data/
 pretrained_model/

@@ -1,0 +1,16 @@
+tf_ggx_render_configs/
+logs/
+test_data/
+__pycache__/
+
+tf_ggx_render_config_quater/
+
+tf_ggx_render_configs_full/
+
+tf_ggx_render_configs_quater/
+
+tf_ggx_render_configs_1x1/
+
+tf_ggx_render_configs_2x2/
+
+tf_ggx_render_configs_4x4/
