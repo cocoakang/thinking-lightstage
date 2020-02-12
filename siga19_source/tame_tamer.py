@@ -78,29 +78,29 @@ class Tame_Tamer:
                 activation_fn=af,scope = tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
                 x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
 
-            # block_ns = tf.variable_scope('fc_block2')#,reuse = tf.AUTO_REUSE)
-            # with block_ns:
-            #     size = 512
-            #     x_n = tf.contrib.layers.fully_connected(x_n, size, activation_fn=af, trainable=self.ae_trainable,scope=tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
-            #     x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
+            block_ns = tf.variable_scope('fc_block2')#,reuse = tf.AUTO_REUSE)
+            with block_ns:
+                size = 512
+                x_n = tf.contrib.layers.fully_connected(x_n, size, activation_fn=af, trainable=self.ae_trainable,scope=tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
+                x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
 
-            # block_ns = tf.variable_scope('fc_block3')#,reuse = tf.AUTO_REUSE)
-            # with block_ns:
-            #     size = 256
-            #     x_n = tf.contrib.layers.fully_connected(x_n, size, activation_fn=af, trainable=self.ae_trainable,scope=tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
-            #     x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
+            block_ns = tf.variable_scope('fc_block3')#,reuse = tf.AUTO_REUSE)
+            with block_ns:
+                size = 256
+                x_n = tf.contrib.layers.fully_connected(x_n, size, activation_fn=af, trainable=self.ae_trainable,scope=tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
+                x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
             
-            # block_ns = tf.variable_scope('fc_block4')#,reuse = tf.AUTO_REUSE)
-            # with block_ns:
-            #     size = 256
-            #     x_n = tf.contrib.layers.fully_connected(x_n, size, activation_fn=af, trainable=self.ae_trainable,scope=tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
-            #     x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
+            block_ns = tf.variable_scope('fc_block4')#,reuse = tf.AUTO_REUSE)
+            with block_ns:
+                size = 256
+                x_n = tf.contrib.layers.fully_connected(x_n, size, activation_fn=af, trainable=self.ae_trainable,scope=tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
+                x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
 
-            # block_ns = tf.variable_scope('fc_block5')#,reuse = tf.AUTO_REUSE)
-            # with block_ns:
-            #     size = 128
-            #     x_n = tf.contrib.layers.fully_connected(x_n, size, activation_fn=af, trainable=self.ae_trainable,scope=tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
-            #     x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
+            block_ns = tf.variable_scope('fc_block5')#,reuse = tf.AUTO_REUSE)
+            with block_ns:
+                size = 128
+                x_n = tf.contrib.layers.fully_connected(x_n, size, activation_fn=af, trainable=self.ae_trainable,scope=tf.contrib.framework.get_name_scope(),reuse = tf.AUTO_REUSE)
+                x_n = tf.contrib.layers.dropout(x_n, keep_prob=keep_prob, is_training=isTraining)
 
             ##medium start###
             block_ns = tf.variable_scope('fc_block6')#,reuse = tf.AUTO_REUSE)
