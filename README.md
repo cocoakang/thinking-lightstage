@@ -22,7 +22,7 @@ Linux:
 2. change DATA_ROOT in train.sh to the path of training data. 
 3. run train.sh
 
-**About Synthetic Data Genration**:
+**About Synthetic Data Generation**:
 
 A lumitexel is generated from parameters of a sampled point, including BRDF parameters(normal, tangent, axay, rhod, rhos) and position. The exe module is for generating sampled points, which will be stored in the training data path.(claimed in the train.bat) So you need to generate sampled points on windows first. With a tensorflow implemented rendering module, the lumitexels will be rendered on the fly using the parameters. You can find the module in siga19_source/auxiliary/tf_ggx_render_newparam/tf_ggx_render.py. The configuration of setup(lights,cameras...) is passed to this module when constructing a renderer. It worth noting that you also need to make a uniformly sampled light configuration of the setup to avoid the drawback of real setup as we noted in the paper.
 
